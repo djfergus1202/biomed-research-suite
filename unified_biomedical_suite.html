@@ -543,9 +543,9 @@ const { LineChart, Line, BarChart, Bar, AreaChart, Area, ScatterChart, Scatter,
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
-const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://127.0.0.1:5000'
-  : '';  // Use same origin in production
+ const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+     ? 'http://127.0.0.1:5000'
+     : 'https://biomed-research-suite.onrender.com';  // Use same origin in production
 
 // ============================================================================
 // MOLECULAR DOCKING MODULE
